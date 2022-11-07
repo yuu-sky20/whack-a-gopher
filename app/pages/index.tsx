@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import styled from 'styled-components'
+import Platform from '../models/platform'
 
 export default function Home() {
-  const Text = styled.div`
-    color: ${props => props.color ? props.color : "yellow"}
-  `
 
   return (
     <div>
@@ -14,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Text color="blue">Hello!</Text>
+        <Platform></Platform>
       </main>
     </div>
   )
