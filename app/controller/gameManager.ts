@@ -1,16 +1,21 @@
-/*
-TODO
+function GameStart() {
+    function SetHolePrefabs() {
 
-gamestart
-count score
-time set
-game end
+    }
 
-*/
+}
+
+function GameEnd() {
+    /*
+        Clear Time
+    */
+}
+
+function Game() {
+    let scores = 0
+}
 
 
 
 
-
-
-
+export {Game, GameStart, GameEnd}
