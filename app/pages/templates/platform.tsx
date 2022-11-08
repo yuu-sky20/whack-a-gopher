@@ -1,8 +1,8 @@
 import styled from "styled-components"
 import HolePrefab from "./holePrefab";
 
-export default function Platform() {
-    const plant_num = 9;
+export default function Platform(props: any) {
+    const plant_num = props.plant_num
 
     const Container = styled.div`
         display: flex;
@@ -11,7 +11,7 @@ export default function Platform() {
 
     return (
         <Container>
-            <HolePrefab props=""></HolePrefab>
+            <HolePrefab props={{}}></HolePrefab>
         </Container>
     )
 }
