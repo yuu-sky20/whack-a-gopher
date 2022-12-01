@@ -11,7 +11,7 @@ export default function Platform(props: any) {
 
     return (
         <Container>
-            <HolePrefab props={{}}></HolePrefab>
+            <HolePrefab selected_character="gopher"></HolePrefab>
         </Container>
     )
 }
