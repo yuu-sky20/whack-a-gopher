@@ -4,7 +4,6 @@ import Platform from './templates/platform'
 import {Game, GameStart, GameEnd} from "../controller/gameManager"
 
 export default function Home() {
-
   return (
     <div>
       <Head>
