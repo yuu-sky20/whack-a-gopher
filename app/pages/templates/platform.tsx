@@ -1,6 +1,5 @@
 import styled from "styled-components"
 import HolePrefab from "./holePrefab";
-import PlatformInterface from "../../interfaces/PlatformInterface";
 
 
 const Container = styled.div`
@@ -16,7 +15,7 @@ const BottomPlatform = styled.div`
     justify-content: space-around;
 `
 
-export default function Platform(props: PlatformInterface) {
+export default function Platform() {
 
     
 

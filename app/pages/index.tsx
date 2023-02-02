@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styled from 'styled-components'
 import Platform from './templates/platform'
-import {Game, GameStart, GameEnd} from "../controller/gameManager"
 
 export default function Home() {
   return (
@@ -12,8 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Platform props={{}}>
-        </Platform>
+
       </main>
     </div>
   )
