@@ -3,6 +3,11 @@ import styled from 'styled-components'
 import Link from 'next/link'
 
 export default function ResultScene() {
+
+
+    // mongodbと非同期通信してデータを取ってくる
+    // 表形式で表示
+
     return (
         <div>
             <Head>
