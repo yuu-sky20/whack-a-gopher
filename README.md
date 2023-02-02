@@ -27,4 +27,4 @@ docker-compose down
 
 
 # Architecture
-### This application is running on the Onin Architecture.
+### This application made in reference to the Onin Architecture.
