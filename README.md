@@ -17,10 +17,14 @@ docker-compose down
 
 ---
 
-### /pages
+## Page layout
 - index.tsx
     - Title Scene
-- result.tsx
+- game/result.tsx
     - Result Scene
-- main.tsx
+- game/main.tsx
     - Main Game Scene
+
+
+# Architecture
+### This application is running on the Onin Architecture.
