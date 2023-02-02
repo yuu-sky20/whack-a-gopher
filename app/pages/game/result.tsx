@@ -10,14 +10,14 @@ export default function ResultScene() {
                 <meta name="description" content="whack-a-gopher result scene." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            Game Here.
+            Result Here.
             <div>
                 <ul>
                     <li>
                     <Link href="/game/main">Retry Game</Link>
                     </li>
                     <li>
-                    <Link href="/index">Go to Title</Link>
+                    <Link href="/">Go to Title</Link>
                     </li>
                 </ul>
             </div>
