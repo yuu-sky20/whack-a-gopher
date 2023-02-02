@@ -14,3 +14,13 @@ docker-compose up -d
 ```
 docker-compose down
 ```
+
+---
+
+### /pages
+- index.tsx
+    - Title Scene
+- result.tsx
+    - Result Scene
+- main.tsx
+    - Main Game Scene
