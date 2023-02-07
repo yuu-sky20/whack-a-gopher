@@ -27,4 +27,4 @@ docker-compose down
 
 
 # Architecture
-### This application made in reference to the 3-Tier Architecture.
+### This application made in reference to the 4-Tier Architecture.
